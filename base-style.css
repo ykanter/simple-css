@@ -1,0 +1,19 @@
+:root {
+    --main-height : 90vh;
+    --main-width : 100vw;
+    --main-mar-left : 20vw;
+    --main-mar-right: 1vw;
+    --gray-dark : rgb(50,50,50);
+    --gray-light: rgb(70,70,70);
+}
+body {
+    font-family: system-ui, sans-serif;
+}
+h1 {
+    font-variant: small-caps;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    margin-left: 1vw;
+}
