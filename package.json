@@ -6,7 +6,7 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "build" : "bun build ./index.js --outdir ./build",
+    "build" : "bun build ./index.js --target=bun --outfile=server.js",
     "dev" : "bun --watch run index.js"
   },
   "peerDependencies": {
